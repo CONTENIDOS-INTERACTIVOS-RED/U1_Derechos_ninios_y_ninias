@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: 'Derechos de los niños y las niñas',
+    tituloUnidad: 'Los derechos',
   },
   menuPrincipal: {
     menu: [

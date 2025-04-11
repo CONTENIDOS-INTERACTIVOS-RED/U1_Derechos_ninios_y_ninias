@@ -22,7 +22,6 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              h2.home-title Los derechos
               p.descripcion.mb-4 La unidad aborda la importancia de los derechos de los niños y niñas en el ámbito educativo y social, destacando su evolución histórica y legal. Examina la Declaración Universal de los Derechos Humanos, la Declaración sobre los Derechos del Niño y la Ley de Infancia y Adolescencia en Colombia. Promueve una pedagogía basada en los derechos, con enfoques como el constructivismo y la pedagogía crítica. Subraya el papel del educador como agente transformador y la necesidad de integrar estos principios en contextos escolares para garantizar el bienestar, la inclusión y la equidad infantil.
 
               .button-container.mt-auto
