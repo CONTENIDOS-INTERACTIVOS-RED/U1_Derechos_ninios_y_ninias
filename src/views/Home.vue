@@ -22,11 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
-              
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              h2.home-title Los derechos
+              p.descripcion.mb-4 La unidad aborda la importancia de los derechos de los niños y niñas en el ámbito educativo y social, destacando su evolución histórica y legal. Examina la Declaración Universal de los Derechos Humanos, la Declaración sobre los Derechos del Niño y la Ley de Infancia y Adolescencia en Colombia. Promueve una pedagogía basada en los derechos, con enfoques como el constructivismo y la pedagogía crítica. Subraya el papel del educador como agente transformador y la necesidad de integrar estos principios en contextos escolares para garantizar el bienestar, la inclusión y la equidad infantil.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
