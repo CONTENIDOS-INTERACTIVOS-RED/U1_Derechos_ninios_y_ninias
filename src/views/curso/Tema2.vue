@@ -323,13 +323,242 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Ley de Infancia y Adolescencia                                         
+                p <strong>Anexo. </strong> Ley de Infancia y Adolescencia
 
-  </template>
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/42407" target="_blank" rel="noopener noreferrer") Carmona Luque, M. del R. (2012). La convención sobre los derechos del niño: instrumento de progresividad en el derecho internacional de los derechos humanos. Dykinson.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/67106" target="_blank" rel="noopener noreferrer") Seda, J. A. (2013). La Convención sobre los Derechos del Niño y su aplicación en el ámbito educativo (2ª. ed.). Homo Sapiens Ediciones. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.unicef.org/es/convencion-derechos-nino/texto-convencion" target="_blank" rel="noopener noreferrer") Unicef. (2006). Convención sobre los derechos del niño. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.ibcr.org/es/article-blogue/trabajando-por-los-derechos-de-las-ninas-y-los-ninos-en-colombia/" target="_blank" rel="noopener noreferrer") Oficina Internacional de los Derechos del Niño. (2021). Trabajando por los derechos de las niñas y los niños en Colombia. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://redclade.org/especiais/derechos-desde-el-principio-la-educacion-y-el-cuidado-en-la-primera-infancia/" target="_blank" rel="noopener noreferrer") Red Clade. (s.f.). Derechos desde el principio: la educación y el cuidado en la primera infancia. 
+                         
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=1mH8rD2UxnI" target="_blank" rel="noopener noreferrer") Daniela Acosta. (2018). Convención sobre los Derechos del Niño || UNICEF. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Z8nwAG8E40s" target="_blank" rel="noopener noreferrer") SFPIE UV. (2023). 2.2_ La Convención Internacional de los Derechos del niño.                
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
+</template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema1',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Derechos de los niños y las niñas',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de las siguientes afirmaciones sobre los derechos humanos es correcta?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Son otorgados por el Estado y pueden ser revocados en cualquier momento',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Son universales, inalienables e independientes de la nacionalidad o cultura',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Solo aplican a personas mayores de edad',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Varían según la situación económica de cada país',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué papel juegan los derechos de los niños en la construcción de una sociedad equitativa?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Permiten que los niños contribuyan económicamente desde temprana edad',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Solo benefician a ciertos sectores de la población',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Limitan la capacidad de los Estados para establecer normas educativas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Fomentan la protección, el desarrollo y la participación infantil',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál es la importancia del derecho a la identidad para los niños y niñas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Les permite acceder a redes sociales y otras plataformas digitales',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Garantiza que sean reconocidos legalmente y accedan a otros derechos',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Les da la posibilidad de cambiar de nombre constantemente',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Solo es relevante cuando llegan a la edad adulta',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de estos factores puede vulnerar los derechos de los niños y niñas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Explotación infantil y violencia familiar',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Acceso a educación gratuita',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Participación en actividades recreativas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Protección por parte de organismos estatales',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Por qué se considera que los derechos de la infancia son una responsabilidad compartida?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Porque solo el Estado debe velar por la protección infantil',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Porque la garantía de derechos involucra a la familia, el Estado y la sociedad',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Porque los niños deben defenderse por sí mismos en caso de vulneraciones',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Porque solo las organizaciones internacionales pueden intervenir',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -338,4 +567,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

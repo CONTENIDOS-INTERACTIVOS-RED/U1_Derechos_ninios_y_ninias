@@ -255,7 +255,46 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Derechos humanos y su aplicación en la realidad colombiana
     
-                                  
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/106297" target="_blank" rel="noopener noreferrer") Morales Aguilera, P. (2018). Los derechos humanos hoy: reflexiones, desafíos y proyecciones a 70 años de la Declaración Universal (1948-2018). RIL editores. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/6413" target="_blank" rel="noopener noreferrer") Gómez Gómez, A. (2006). Cincuentenario de la declaración universal de los derechos humanos. Red Reflexión Política. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://eprints.uanl.mx/8032/1/a3_2.pdf" target="_blank" rel="noopener noreferrer") Aguilera Portales, R. E. (2009). La enseñanza de los derechos humanos.                              
+   
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.medicosdelmundo.org/blog/ong/derechos-humanos/" target="_blank" rel="noopener noreferrer") Médicos del Mundo. (2024). Derechos Humanos: Salud como derecho universal. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.amnesty.org/es/what-we-do/universal-declaration-of-human-rights/" target="_blank" rel="noopener noreferrer") Amnistía Internacional. (s.f.). Declaración Universal de Derechos Humanos.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://blog.cervantesvirtual.com/declaracion-universal-de-los-derechos-humanos/" target="_blank" rel="noopener noreferrer") El Blog de la Biblioteca Virtual Miguel de Cervantes. (s.f.). Declaración Universal de los Derechos Humanos. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=MJDGjT7S7WY" target="_blank" rel="noopener noreferrer") Yelsi Vicente. (2020). DECLARACIÓN UNIVERSAL DE LOS DERECHOS HUMANOS.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=JoFYVMyzzzk" target="_blank" rel="noopener noreferrer") Compartir Palabra Maestra. (2017). El rol de los Derechos Humanos en la educación. 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')                                      
 
 </template>
 
