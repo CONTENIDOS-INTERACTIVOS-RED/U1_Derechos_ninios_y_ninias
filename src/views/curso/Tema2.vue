@@ -346,6 +346,12 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://www.unicef.org/es/convencion-derechos-nino/texto-convencion" target="_blank" rel="noopener noreferrer") Unicef. (2006). Convención sobre los derechos del niño. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://revistas.unisimon.edu.co/index.php/justicia/article/view/548" target="_blank" rel="noopener noreferrer") Prentt, M. V. (2006). Breve estudio de la Nueva Ley de la Infancia y la Adolescencia. Justicia, 11(11).  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://iin.oea.org/Cursos_a_distancia/infancia_ley_y_democracia.pdf" target="_blank" rel="noopener noreferrer") García Méndez, E. (2006). Infancia, ley y democracia: una cuestión de justicia. Consultantes, 109.                              
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
@@ -353,6 +359,12 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
               a(href="https://redclade.org/especiais/derechos-desde-el-principio-la-educacion-y-el-cuidado-en-la-primera-infancia/" target="_blank" rel="noopener noreferrer") Red Clade. (s.f.). Derechos desde el principio: la educación y el cuidado en la primera infancia. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.transformacioneducativaparalavida.org/blog/itemlist/tag/Código%20de%20Infancia%20y%20Adolescencia" target="_blank" rel="noopener noreferrer") Tramsformación educativa para la vida. (s.f.). La garantía de los derechos de la niñez no da espera. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://blog.aldaba.ong/ley-proteccion-integral-infancia-adolescencia/" target="_blank" rel="noopener noreferrer") El Blog de Aldaba. (s.f.). Claves para entender la ley de protección e menores o ley de protección integral a la infancia y la adolescencia frente a la violencia.        
                          
 
             p.d-flex.my-4
@@ -360,7 +372,13 @@
               a(href="https://www.youtube.com/watch?v=1mH8rD2UxnI" target="_blank" rel="noopener noreferrer") Daniela Acosta. (2018). Convención sobre los Derechos del Niño || UNICEF. 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=Z8nwAG8E40s" target="_blank" rel="noopener noreferrer") SFPIE UV. (2023). 2.2_ La Convención Internacional de los Derechos del niño.                
+              a(href="https://www.youtube.com/watch?v=Z8nwAG8E40s" target="_blank" rel="noopener noreferrer") SFPIE UV. (2023). 2.2_ La Convención Internacional de los Derechos del niño.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=YiXTrLXLjwU" target="_blank" rel="noopener noreferrer") Infancia en Positivo. (2021). Adolescentes, preadolescentes y Ley. Lo que DEBES saber. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=Hc0bl4v8PHY" target="_blank" rel="noopener noreferrer") Decide Madrid. (2024). Entrevista a Maicol Londoño - Protección de familia e infancia en Colombia: un enfoque participativo.                             
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
