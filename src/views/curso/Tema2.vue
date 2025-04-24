@@ -319,7 +319,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Ley de Infancia y Adolescencia
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Ley de Infancia y Adolescencia, donde se aborda el marco legal colombiano destinado a proteger, promover y garantizar los derechos de los niños, niñas y adolescentes. Este material ofrece explicaciones, reflexiones y ejemplos sobre cómo esta normativa impacta la educación, la convivencia escolar y el desarrollo integral de la infancia. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

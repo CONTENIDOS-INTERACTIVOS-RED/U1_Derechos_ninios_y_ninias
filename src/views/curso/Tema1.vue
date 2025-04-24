@@ -249,7 +249,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Derechos humanos y su aplicación en la realidad colombiana
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Derechos humanos y su aplicación en la realidad colombiana, donde se analiza cómo los principios universales de dignidad, libertad e igualdad, impactan la vida cotidiana en Colombia. Este material ofrece reflexiones, análisis de casos y propuestas educativas, centradas en la enseñanza de los derechos humanos, con el fin de formar ciudadanos conscientes y comprometidos.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
