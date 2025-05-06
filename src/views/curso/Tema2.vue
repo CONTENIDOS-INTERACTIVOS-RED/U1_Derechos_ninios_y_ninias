@@ -13,7 +13,7 @@
             .col-lg-auto
               img.img-a.img-t(src="@/assets/curso/temas/20.svg")
             .col-lg
-              p.mb-0 Adoptada en 1948 por la Asamblea General de las Naciones Unidas, la Declaración Universal de los Derechos Humanos (DUDH) ha sido piedra angular para la creación de políticas y leyes orientadas a proteger a las personas de la discriminación, la injusticia y la violencia. Su estudio nos invita a comprender su origen, su relevancia en la educación y la sociedad, y los desafíos actuales para su cumplimiento efectivo.
+              p.mb-0 En este contexto surge la Declaración sobre los Derechos del Niño, aprobada por la Asamblea General de las Naciones Unidas en #[b 1959], como un documento fundamental que reafirma la necesidad de garantizar a los niños un entorno libre de violencia, discriminación y abandono. Pero ¿se aplican realmente estos principios en la vida cotidiana? ¿Cómo impactan en la realidad educativa, especialmente en países como Colombia?
         p(data-aos="fade-down") El análisis de esta declaración permite comprender su trascendencia en la educación y el rol esencial del docente como promotor y defensor de los derechos de la infancia. A través de su estudio, se identifican estrategias pedagógicas que promuevan una enseñanza basada en el #[b respeto, la equidad y la inclusión], principios fundamentales para consolidar comunidades educativas justas y protectoras.
 
     #t_2_1.titulo-segundo(data-aos="flip-up")
@@ -103,7 +103,7 @@
         figure
           img.img-a.img-t(src="@/assets/curso/temas/28.png", alt="").mb-4.mb-lg-0
 
-    h3.mb-5(data-aos="fade-down") Enfoque de la pedagogía crítica: educar para transformar
+    h3.mb-5(data-aos="fade-down") Una mirada transformadora desde la educación
 
     .row.mb-5  
       .col-lg-4.mb-3.mb-lg-0 
@@ -155,7 +155,7 @@
 
     .row.mb-5 
       .col-lg-8
-        h3(data-aos="fade-down") Una mirada transformadora desde la educación
+        h3(data-aos="fade-down") Claves para una educación basada en derechos
         p(data-aos="fade-down") Uno de los pilares de este reconocimiento es el #[b derecho a una educación de calidad], entendida no solo como acceso a la escuela, sino como garantía de una enseñanza adaptada, inclusiva y libre de discriminación. En este sentido, el #[b docente] desempeña un papel crucial, al fomentar entornos donde primen el respeto, la participación activa y el bienestar emocional.               
         .bg-color-3.p-4.mb-4(data-aos="fade-left")
           p.mb-0 Es esencial garantizar el #[b derecho a la protección contra el maltrato] y la violencia en el entorno escolar. Un aula segura es aquella donde los estudiantes pueden #[b expresarse sin miedo, desarrollarse sin barreras y aprender sin ser vulnerados]. Para lograrlo, es indispensable implementar estrategias de convivencia pacífica y resolución constructiva de conflictos.
